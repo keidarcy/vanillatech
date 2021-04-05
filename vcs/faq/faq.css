@@ -1,0 +1,9 @@
+section.faq {
+  display: block !important;
+  margin: 120px;
+}
+
+ul,
+ol {
+  padding: 10px 30px;
+}
