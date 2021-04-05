@@ -23,7 +23,7 @@ Array.from(document.querySelectorAll('.navigation a')).forEach((link) => {
 const formElem = document.querySelector('.contact-form form');
 if (formElem) {
   formElem.addEventListener('submit', (e) => {
-    const CONTACT_ENDPOINT = 'https://localhost/v2/contact';
+    const CONTACT_ENDPOINT = 'https://vanillacrossselld.xyyolab.com/v2/contact';
     e.preventDefault();
     const payload = {
       firstName: formElem.elements['first'].value,
