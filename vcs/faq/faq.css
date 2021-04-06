@@ -3,6 +3,11 @@ section.faq {
   margin: 120px;
 }
 
+@media (max-width: 1068px) {
+  section.faq {
+    margin: 0;
+  }
+}
 ul,
 ol {
   padding: 10px 30px;
